@@ -17,3 +17,43 @@ header h1 {
     display:inline-block;
     font-size: 48px;
 }
+
+/* The below rules target the top menue bar */
+
+.top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+
+.top-button {
+   padding: 10px; 
+   border-radius: 40px;
+   transition-duration: 0.4s;
+   background-color: pink;
+   margin: 5px;
+}
+
+.top-button a {
+    color: green;
+}
+
+.top-button:hover {
+    background-color:blue;
+}
+
+.top-button a:hover {
+    color: orange;
+}
+
+.primary-project {
+width: 500px;
+height: 500px;
+border-radius: 100%;
+}
+
+.project {
+width: 250px;
+height: 250;
+border-radius: 100%;
+}
