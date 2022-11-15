@@ -11,11 +11,15 @@ body {
     padding: 50px;
 }
 
+.sub-body {
+    background: rgba(244, 91, 105, .4) /*  40% opacity */
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ebebeb;
-    background: rgba(244, 91, 105, .4) /*  40% opacity */
+  /*   background: rgba(244, 91, 105, .4) /*  40% opacity */
 }
 
 .top-wrapper {
@@ -69,7 +73,7 @@ header h1 {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 10px;
-    background: rgba(244, 91, 105, .4) /*  40% opacity */
+   /*  background: rgba(244, 91, 105, .4) /*  40% opacity */
 }
 
 .about-me h2 {
@@ -80,7 +84,7 @@ header h1 {
 
 .work {
     padding: 10px;
-    background: rgba(244, 91, 105, .4) /*  40% opacity */
+    /* background: rgba(244, 91, 105, .4) /*  40% opacity */
 }
 
 .main-project {
@@ -120,7 +124,7 @@ header h1 {
 }
 
 .resume {
-    background: rgba(244, 91, 105, .4) /*  40% opacity */
+   /*  background: rgba(244, 91, 105, .4) /*  40% opacity */
 }
 
 
@@ -130,7 +134,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(244, 91, 105, .4) /*  40% opacity */
+  /*   background: rgba(244, 91, 105, .4) /*  40% opacity */
        
 }
 
@@ -149,7 +153,7 @@ header h1 {
 
 footer {
     text-align: center;
-    background: rgba(244, 91, 105, .4) /*  40% opacity */
+  /*   background: rgba(244, 91, 105, .4) /*  40% opacity */
     
 }
 
@@ -157,5 +161,9 @@ footer {
 @media screen and (max-width: 768px) {
       body {
         justify-content: center;
+        background-color: #000000;
+        display: flex;
       }
+
+    
     } */
