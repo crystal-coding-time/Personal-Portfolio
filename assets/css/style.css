@@ -7,7 +7,8 @@
 }
 
 body {
-    background: url("../images/sea.jpg");
+    background: url("../images/sea.jpg") no-repeat center fixed;
+    background-size: cover;
     padding: 50px;
 }
 
@@ -15,11 +16,16 @@ body {
     background: rgba(244, 91, 105, .4) /*  40% opacity */
 }
 
-header {
-    padding: 20px;
+h1, h2, h3, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ebebeb;
-  /*   background: rgba(244, 91, 105, .4) /*  40% opacity */
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+
+header {
+    padding: 20px;
+    color: #ebebeb;
 }
 
 .top-wrapper {
@@ -49,21 +55,21 @@ header h1 {
    padding: 10px; 
    border-radius: 40px;
    transition-duration: 0.4s;
-   background-color: #f45b69;
    margin: 5px;
+   background-color: rgba(248, 117, 117, .60)
    
 }
 
 .top-button a {
-    color: #59c3c3;
+    color: #ebebeb; /* color for text in buttons */
 }
 
 .top-button:hover {
-    background-color: #f87575;
+    background-color: rgba(18, 105, 199, .80); 
 }
 
 .top-button a:hover {
-    color: orange;
+    color: #f45b69;
 }
 
 /* The below rules target the about me section and images */
@@ -73,7 +79,6 @@ header h1 {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 10px;
-   /*  background: rgba(244, 91, 105, .4) /*  40% opacity */
 }
 
 .about-me h2 {
@@ -84,7 +89,7 @@ header h1 {
 
 .work {
     padding: 10px;
-    /* background: rgba(244, 91, 105, .4) /*  40% opacity */
+    
 }
 
 .main-project {
@@ -105,7 +110,7 @@ header h1 {
 }
 
 .primary-project:hover, .project:hover {
-    opacity: 60%; /* this makes the boxes go ghost when you hover over them */
+    opacity: 60%; /* this makes the images go ghost when you hover over them */
     box-shadow: inset 0 0 8px rgba(89, 195, 195, 1), 0 0 15px rgba(89, 195, 195, 1); /* This makes the boxes glow */
 }
 
@@ -124,18 +129,15 @@ header h1 {
 }
 
 .resume {
-   /*  background: rgba(244, 91, 105, .4) /*  40% opacity */
+  
 }
-
 
     /* The below rules target the contact me section */
 
 .contact-me {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  /*   background: rgba(244, 91, 105, .4) /*  40% opacity */
-       
+    align-items: center;   
 }
 
 .contact-me-list {
@@ -143,8 +145,8 @@ header h1 {
     justify-content: center;
 }
 
-.contact-me h2 {
-
+.contact-me ul li a {
+color: black;
 }
 
 .contact-me li {
@@ -153,8 +155,6 @@ header h1 {
 
 footer {
     text-align: center;
-  /*   background: rgba(244, 91, 105, .4) /*  40% opacity */
-    
 }
 
 /*
