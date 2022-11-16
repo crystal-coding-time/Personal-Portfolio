@@ -1,4 +1,4 @@
-.root {
+:root {
     --drkblue: #1269C7;
     --litblue: #59c3c3;
     --platinum: #ebebeb;
@@ -8,10 +8,10 @@
 
 body {
   /*  background: url("../images/sea.jpg") no-repeat center fixed; */
-    background-image: linear-gradient(#1269c7, #59c3c3);
+    background-image: linear-gradient(var(--drkblue), var(--litblue));
     background-attachment: fixed; /* this prevents the gradient from repeating */
     background-size: cover;
-    padding: 50px;
+    padding: 50px; 
 }
 
 .sub-body {
@@ -94,15 +94,28 @@ header h1 {
     
 }
 
-.main-project {
+.main-project-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
 }
+
+.main-project-text { /* This is what controls the text over the image */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(248, 117, 117, 1);
+    border-radius: 20%;
+    }
 
 .primary-project {
     flex-direction: row;
     justify-content: center;
+    padding: 5px;
 }
 
 .other-projects {
