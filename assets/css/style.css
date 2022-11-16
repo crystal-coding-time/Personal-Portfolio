@@ -74,6 +74,20 @@ header h1 {
     color: #f45b69;
 }
 
+/* Below targets the selfie */
+
+.selfie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selfie img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
 /* The below rules target the about me section and images */
 
 .about-me {
@@ -108,20 +122,24 @@ header h1 {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(248, 117, 117, 1);
-    border-radius: 20%;
+    background-color: rgba(248, 117, 117, .80);
+    border-radius: 100%;
+    padding: 10px;
     }
 
 .primary-project {
     flex-direction: row;
     justify-content: center;
-    padding: 5px;
 }
 
 .other-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+img {
+    padding: 5px;
 }
 
 .primary-project:hover, .project:hover {
