@@ -8,7 +8,7 @@ Built HTML and CSS - this is a work in progress.
 
 ## Website URL
 
-TMy portfolio can be accessed [here](https://crystal-coding-time.github.io/personal-portfolio/)
+My portfolio can be accessed [here](https://crystal-coding-time.github.io/personal-portfolio/)
 
 ## Authors
 
